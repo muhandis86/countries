@@ -1,0 +1,29 @@
+.card {
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.15);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.list-group-item:hover {
+    background-color: #f7f1f1;
+}
+
+
+.listItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .link {
+        color: #ac2218;
+        text-decoration: none;
+
+        &:hover {
+            color: #c38e8c;
+        }
+    }
+}
+
+.author {
+    text-align: center;
+    margin-bottom: 20px;
+}

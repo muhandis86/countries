@@ -24,7 +24,7 @@ const useCountryService = () => {
     const _transformCountryInfo = (country) => {
         return {
             name: country.name.common,
-            capital: country.capital,
+            capital: country.capital ? country.capital : 'There is no data about capital',
             flags: country.flags.png,
             region: country.region,
             maps: country.maps.googleMaps
